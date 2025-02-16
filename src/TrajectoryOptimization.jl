@@ -146,5 +146,7 @@ include("dynamics.jl")
 include("logger.jl")
 include("../dynamics/quaternions.jl")
 
+export Quaternion, Quat, *, skew, Lmult, Rmult, conj, deriv_conj, normalize, vec, scalar, inv
+
 # write_ipopt_options()
 end
